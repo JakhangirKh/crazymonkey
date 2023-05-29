@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'LR';
+  src: url('../fonts/Lobster-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'OR';
+  src: url('../fonts/OpenSans-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'OS';
+  src: url('../fonts/OpenSans-SemiBold.ttf');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'RB';
+  src: url('../fonts/Rubik-Bold.ttf');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'RM';
+  src: url('../fonts/Rubik-Medium.ttf');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'RS';
+  src: url('../fonts/Rubik-SemiBold.ttf');
+  font-style: normal;
+  font-weight: 600;
+}

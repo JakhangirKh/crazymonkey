@@ -1,0 +1,167 @@
+@media (max-width:1140px) {
+   .nav_item {
+      flex-direction: column;
+      padding: 20px 0;
+      margin-bottom: 10px;
+   }
+
+   .nav_list {
+      margin-top: 10px;
+   }
+
+   .more_item,
+   .main_title,
+   .section_title h2,
+   .about_us h2 {
+      font-size: 30px;
+   }
+
+   .about_us p {
+      font-size: 14px;
+   }
+
+
+   .section_cards {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+   .section_card1 {
+      max-width: 524px;
+      flex-wrap: wrap;
+   }
+
+   .section__cards_left {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .section__cards_right {
+      flex-direction: column;
+   }
+
+   .footer_nav {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+}
+
+@media (max-width:992px) {
+
+   .section_cards {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+   .section_card1 {
+      max-width: 524px;
+      flex-wrap: wrap;
+   }
+
+   .section__cards_left {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .section__cards_right {
+      flex-direction: column;
+   }
+
+
+   .about {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      max-width: 524px;
+   }
+
+   .main_cards {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      /* max-width:524px ; */
+   }
+}
+
+@media (max-width:768px) {
+
+   .more_item,
+   .main_title,
+   .section_title h2,
+   .about_us h2 {
+      font-size: 20px;
+   }
+
+   .more_item {
+      max-width: 763px;
+      text-align: center;
+   }
+
+   .more_btn{
+      font-size: 15px;
+   }
+}
+
+@media (max-width:576px) {
+   .section_cards {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+   }
+   .section_card1{
+      max-width: 257px;
+   }
+   .section_card2{
+      max-width: 257px;
+      
+   }
+   .section__cards_left{
+      align-items: center;
+      justify-content: center;
+   }
+   .section__cards_left a img{
+    width: 100%;
+   }
+   .section__cards_right{
+      align-items: center;
+      justify-content: center;
+   }
+   .section__cards_right a img{
+    width: 100%;
+   }
+   
+   .about_us_img img{
+      width: 100%;
+   }
+}
+@media (max-width:420px){
+   .footer_nav p{
+      text-align: center;
+   }
+}
+@media (max-width:390px){
+.nav_list{
+   flex-direction: column;
+   gap: 10px;
+}
+.main_card h3{
+   font-size: 15px;
+}
+.main_card p{
+   font-size: 12px;
+}
+.more_item, .main_title, .section_title h2, .about_us h2 {
+   font-size: 15px;
+}
+.nav_list_link a{
+   font-size: 14px;
+}
+
+.footer_nav p{
+   text-align: center;
+}
+}
